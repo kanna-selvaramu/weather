@@ -1,0 +1,58 @@
+body{
+    background-color: #5e8b9a;
+    font-family: cursive;
+}
+.cls_skWeatherWrapper {
+    display: inline-block;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+.cls_skWeatherImg {
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-position: 0,0;
+    background-size: 100%;
+    margin: 0 auto;
+}
+.cls_skDayWrapper .cls_skWeatherImg {
+    width: 120px;
+    height: 120px;
+}
+.cls_skLeftCont {
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.cls_skRightTemp {
+    float: right;
+}
+.cls_skForecastWrapp, .cls_skDayWrapper {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.cls_skIconWrap #clearsky{
+    background-image: url("./img/cloud.png");
+}
+.cls_skIconWrap #brokenclouds{
+    background-image: url("./img/cloudy.png");
+}
+.cls_skIconWrap #lightrain{
+    background-image: url("./img/rainbow.png");
+}
+.cls_skIconWrap #moderaterain{
+    background-image: url("./img/rain.png");
+}
+.cls_skDate, .cls_skForecastWrapp h1,.cls_skTemp,body {
+    color: #FFF;
+}
+a {
+    display: block;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    text-decoration: none;
+}
+.cls_skTempWrapper {
+    text-align: center;
+}
